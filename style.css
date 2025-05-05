@@ -1,0 +1,306 @@
+/*===============INDEX===============*/
+.body-index{
+    background: url(images/background-1-port.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.index-logo-img {
+    padding-left: 300px;
+    padding-top: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.index-logo-text {
+    padding-left: 250px;
+    width: 500px;
+    height: 200px;
+}
+
+/*========INDEX-MENU========*/
+
+.index-menu{
+    padding-left: 55px;
+}
+
+.index-menu-item{
+    text-decoration: none;
+    text-align: center;
+    
+    border: 6px solid #ffffff;
+    display: inline-table;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.index-menu-item p{   
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 40px
+}
+
+.index-menu-item i{
+    margin: 12px 12px 12px 12px;
+    color: #ffffff;
+}   
+
+/*===============MEALS===============*/
+
+.body-meals{
+    background: url(images/bacground-2-port.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.header-img{
+    width: 100%;
+    height: 180px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 400;
+}
+
+.header-text {
+    margin-top: 0px;
+    padding-left: 200px;
+    height: 200px;
+    width: 600px;
+    z-index: 500;
+    position: absolute;
+}
+
+#header i{
+    background-color: saddlebrown;
+    margin-top: 190px;
+    color: #ffffff;
+}
+
+/*========MEALS-MENU========*/
+
+.meal-menu-item p{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-table;
+    font-size: 30px;
+    
+}
+
+.meal-menu-item{
+    display: inline-table;
+}
+.meal-menu-name{
+    font-family: 'courier new',cursive;
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    
+}
+
+.meals-menu a{
+    text-decoration: none;
+}
+
+.meals-menu p1{
+    text-decoration: none;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+}
+/*========ORDER-MENU========*/
+
+.order-menu-item img{
+    height: 325px;
+    width: 525px;
+    padding-left: 75px;
+}
+
+.order-menu-item p{
+    font-size: 40px;
+    padding: 0;
+    display: inline-block;
+}
+.order-menu-item{
+        text-align: center;
+}
+p1{
+    font-size: 40px;
+    text-align: center;
+}
+[type="radio"]{
+    height: 25px;
+    width: 25px;
+}
+
+[type="checkbox"]{
+    height: 25px;
+    width:25px;
+}
+form{
+    font-size: 40px;
+    text-align: center
+}
+.submit a{
+    text-decoration: none;
+    background-color: saddlebrown;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    border: solid 3px #ffffff;
+    font-size: 30px;
+}
+
+.submit{
+    bottom: 0;
+    margin-top: 350px;
+}
+ul{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    list-style-type: none;
+}
+textarea {
+    width: 800px;
+    height: 150px;
+    font-size: 30px;
+}
+
+/*========MSG-RECIEVED-MENU========*/
+
+.meals-menu img{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.meals-menu h3{
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 40px;
+}
+
+/*===============RESPONSIVE LAYOUT===============*/
+
+
+@media only screen and (min-width:1000px){
+    .body-index{
+        background: url(images/background-1-land.jpg);
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+
+
+    .index-logo-img {
+        padding-left: 650px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .index-logo-text {
+        padding-left: 600px;
+        
+    }
+    
+    .index-menu{
+        padding-left: 450px;
+    }
+    
+   .body-meals{
+        background: url(images/bacground-2-land.jpg);
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+
+    .header-img{
+        width: 100%;
+        height: 180px;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: absolute;
+        z-index: 400;
+    }
+
+    .header-text {
+        margin-top: 0px;
+        padding-left: 600px;
+        z-index: 500;
+        position: absolute;
+    }
+    
+    .meals-menu p{
+        font-size: 19px;
+    }
+    .meals-menu a{
+        display: inline-block;
+    
+    }
+    
+    .order-menu-item {
+        text-align: center;
+    }
+
+    .order-menu-item img{
+        display: block;
+        margin: 0 auto;
+        height: 400px;
+    }
+    
+    .order-menu form{
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    [type="radio"]{
+        height: 19px;
+        width: 19px;
+    }
+
+    [type="checkbox"]{
+        height: 19px;
+        width:19px;
+    }
+    form{
+    font-size: 20px;
+    text-align: center
+    }
+    .submit a{
+    font-size: 30px;
+    }
+
+    .submit{
+        position: static;
+        bottom: 0;
+    }
+    ul{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    textarea {
+        width: 800px;
+        height: 150px;
+        font-size: 20px;
+    }
+    
+    .order-menu-item img{
+        height: 550px;
+        width: 650px;
+    }
+    
+    .meals-menu img{
+        width: 300px;
+        height: 300px;
+    }
+    .meals-menu h3{
+        font-size: 20px;
+    }
+}
+    
+  
